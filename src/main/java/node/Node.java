@@ -101,7 +101,7 @@ public class Node implements common.Device {
             replicaManager.shutdown();
 
             // Delete local files from replica nodes.
-            folderWatcher.shutdown();
+            //folderWatcher.shutdown();
 
             // Restructure ring topology.
             System.out.println("[NODE] Sending goodbye!");
